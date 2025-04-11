@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://Yasser4Coder.github.io/Portfolio",
+  "homepage": "https://portfolio-qoz4.onrender.com/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
