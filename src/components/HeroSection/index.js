@@ -44,7 +44,7 @@ const HeroSection = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
-            <ResumeButton href={Bio.resume} target="display">
+            <ResumeButton href={Bio.resume} download target="display">
               Check Resume
             </ResumeButton>
           </HeroLeftContainer>

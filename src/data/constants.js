@@ -1,10 +1,13 @@
+import img from "../images/Screenshot 2024-09-01 141059.png";
+import resumee from "../images/Professional Modern CV Resume.pdf";
+
 export const Bio = {
   name: "Yasser Benseghier",
-  roles: ["Junior Back-end", "Front-end Developer", "Programmer"],
+  roles: ["Back-end", "Front-end Developer", "fullstack"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Yasser4Coder",
-  resume: "",
+  resume: resumee,
   linkedin: "https://www.linkedin.com/in/yasser-benseghier-2767a4293/",
   twitter: "https://x.com/YBenseghier",
   insta: "https://www.instagram.com/yass.erbens/",
@@ -93,9 +96,9 @@ export const skills = [
     title: "Other programming",
     skills: [
       {
-        name: "Java",
+        name: "python",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
       {
         name: "C++",
@@ -126,11 +129,6 @@ export const skills = [
         name: "Postman",
         image:
           "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
-      },
-      {
-        name: "Adobe XD",
-        image:
-          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
       },
       {
         name: "Figma",
@@ -186,29 +184,45 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
-    title: "Halux",
-    date: "Jun 2023 - Jul 2023",
+    id: 123,
+    title: "Elec club website",
+    date: "october 2024 - october 2024",
     description:
-      "Halux is a web application for real estate. It is my first simple project with html css and js",
-    image: "https://b.top4top.io/p_30715jer71.png",
-    tags: ["HTML", "CSS", "JavaScript"],
+      "Elec Club Web Application The Elec Club platform is a responsive web application developed using React and Tailwind CSS. It offers users an interactive interface to engage with club activities, access resources, and stay updated on events. The application emphasizes a clean design and seamless user experience, ensuring accessibility across various devices.",
+    image: "https://a.top4top.io/p_3388t6yf01.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Tailwind",
+      "firebase",
+      "motion (for animation)",
+    ],
     category: "web app",
-    github: "https://github.com/Yasser4Coder/Halux",
-    webapp:
-      "https://yasser4coder.github.io/Halux/?fbclid=IwAR3A01Vs9VfljKNUzqnV3iGBV8I-nX9fHx2TgzTCTPRCiVrSy18qWT2EG5I",
+    github: "https://github.com/Yasser4Coder/elec",
+    webapp: "https://elec-os0l.onrender.com/",
   },
   {
     id: 10,
-    title: "Gericht",
-    date: "Jan 2023 - Jan 2023",
+    title: "PimPim",
+    date: "Aug 2024 - Aug 2024",
     description:
-      "Gericht is a web application for restaurant. It is build by React and tailwind css, a static web site without backent (just the client side)",
-    image: "https://d.top4top.io/p_30716ycnl1.png",
-    tags: ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Redux"],
+      "PimPim is a web application for restaurant. It is build by React and tailwind css for the front end and for the backend i used express and mongodb a full stack mern web app",
+    image: "https://e.top4top.io/p_31543uho61.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Tailwind",
+      "Redux",
+      "express",
+      "mongodb",
+    ],
     category: "web app",
-    github: "https://github.com/Yasser4Coder/restaurant-website",
-    webapp: "https://yasser4coder.github.io/restaurant-website/",
+    github: "https://github.com/Yasser4Coder/pimpim-restaurant",
+    webapp: "https://pimpim-restaurant.onrender.com/",
   },
   {
     id: 11,
@@ -242,6 +256,31 @@ export const projects = [
     category: "web app",
     github: "https://github.com/Yasser4Coder/Project-0",
     webapp: "https://yasser4coder.github.io/Project-0/",
+  },
+  {
+    id: 12,
+    title: "Canary",
+    date: "Aug 2024 - Sep 2024",
+    description:
+      "Project Overview: This is my first freelancing project, developed using React.js, with a focus on creating a modern, responsive user interface. The application consists of 10 pages and was built with the following technologies: React.js: For building the interactive user interface Tailwind CSS: For styling, ensuring a clean and responsive design across all devices. Redux Toolkit: For efficient state management throughout the application. This project demonstrates my ability to deliver a well-structured, scalable front-end application, leveraging modern web development tools and best practices.",
+    image: img,
+    tags: ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Redux"],
+    category: "web app",
+    github: "https://github.com/Yasser4Coder/cnaray-app-react",
+    webapp: "http://expressdz.s3-website.eu-north-1.amazonaws.com/",
+  },
+  {
+    id: 9,
+    title: "Halux",
+    date: "Jun 2023 - Jul 2023",
+    description:
+      "Halux is a web application for real estate. It is my first simple project with html css and js",
+    image: "https://b.top4top.io/p_30715jer71.png",
+    tags: ["HTML", "CSS", "JavaScript"],
+    category: "web app",
+    github: "https://github.com/Yasser4Coder/Halux",
+    webapp:
+      "https://yasser4coder.github.io/Halux/?fbclid=IwAR3A01Vs9VfljKNUzqnV3iGBV8I-nX9fHx2TgzTCTPRCiVrSy18qWT2EG5I",
   },
 ];
 
